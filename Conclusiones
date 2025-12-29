@@ -1,0 +1,10 @@
+RESULTADOS
+Al finalizar la ejecucion se genera automaticamente un reporte en formato HTML que se encuentra en la siguiente direccion target/karate-reports/karate-summary.html, Este reporte incluyen el detalle de cada escenario ejecutado, los tiempos de respuesta y los resultados finales
+
+CONCLUSIONES
+Durante el desarrollo se comprobo que los servicios REST permiten:
+- Crear una mascota con datos válidos
+- Consultar la mascota creada mediante su identificador
+- Actualizar correctamente la información de la mascota, incluyendo su nombre y estado
+- Consultar mascotas filtrando por estado (status)
+La herramienta Karate ayudó a visualizar de mejor manera los resultados de los escenarios de ingreso y registro de una mascota. Además, permitió escribir los escenarios de forma más eficaz, ya que utiliza un lenguaje más fácil y entendible.
